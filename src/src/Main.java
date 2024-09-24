@@ -1,15 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("esercizio uno");
-        public static boolean stringaPAriDispari (string str){
-            return str.length()%2==0;
-        }
-        public static void main(string[] args){
-            String test1 ="ciao";
-            String test2 = "hello"
-                    
-            System.out.println(stringaPariDispari(test1));
-            System.out.println(stringaPariDispari(test2));
-        }
+
+         String test1 = "ciao";
+         String test2= "amicoo";
+         System.out.println(stringPariDispari( test1));
+         System.out.println(stringPariDispari(test2));
+    }
+
+    public static boolean stringPariDispari(String str){
+        return str.length()%2==0;
     }
 }
